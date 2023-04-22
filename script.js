@@ -17,6 +17,7 @@ function startTimer() {
         minute = 00;
         ring.classList.add("ending");
         stopTimer();
+        startBtn.innerHTML = "start";
         let audio = new Audio("sound/bell-hop-bell.mp3");
         audio.play();
     }
